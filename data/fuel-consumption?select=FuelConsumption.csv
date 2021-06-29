@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Fuel Consumption | Kaggle</title>
+  <meta charset="utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="description" content="Kaggle is the world&#x2019;s largest data science community with powerful tools and resources to help you achieve your data science goals." />
+  <meta name="turbolinks-cache-control" content="no-cache" />
+    <meta name="keywords" content="business" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="ef7pGWAAP&#x2B;n0iAJN9Qhgow==" type="text/javascript">
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations()
+        .then(function (registrations) {
+          for (let registration of registrations) {
+            registration.unregister();
+          }
+        })
+        .catch(function (err) {
+          console.error("Service worker unregister failed: ", err);
+        });
+    }
+  </script>
+  <script nonce="ef7pGWAAP&#x2B;n0iAJN9Qhgow==" type="text/javascript">
+    window["pageRequestStartTime"] = 1623763607586;
+    window["pageRequestEndTime"] = 1623763607709;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+  <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons" rel="stylesheet" type='text/css' />
+    <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=82cb257701542c806dbc" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=019ac85a2d39b03b2270" />
+  
+    
+ 
+  
+    <script nonce="ef7pGWAAP&#x2B;n0iAJN9Qhgow==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="ef7pGWAAP&#x2B;n0iAJN9Qhgow==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-12629138-1', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets'
+        });
+    </script>
+    <script nonce="ef7pGWAAP&#x2B;n0iAJN9Qhgow==" async src="https://www.googletagmanager.com/gtag/js?id=UA-12629138-1"></script>
+
+  
+    
+        <meta property="og:url" content="https://kaggle.com/sarita19/fuel-consumption" />
+        <meta property="og:title" content="Fuel Consumption" />
+        <meta property="og:description" content="" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-5.png-544505/dataset-card.png" />
+        <meta property="fb:app_id" content="2665027677054710" />
+
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kaggledatasets" />
+    
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+        <script nonce="ef7pGWAAP+n0iAJN9Qhgow==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"Fuel Consumption","description":"# Dataset\nThis dataset was created by Sarita\n\n# Contents\nIt contains the following files:\n\n","url":"https://www.kaggle.com/sarita19/fuel-consumption","version":1,"keywords":["subject, people and society, business"],"license":{"@type":"CreativeWork","name":"Unknown","url":""},"identifier":["255305"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"Sarita","url":"https://www.kaggle.com/sarita19","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/sarita19/fuel-consumption/download","contentSize":"13052 bytes"}],"commentCount":0,"dateModified":"2019-07-05T12:48:45.457","discussionUrl":"https://www.kaggle.com/sarita19/fuel-consumption/discussion","alternateName":"","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-5.png-544505/dataset-card.png","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":0},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":1015},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":5961},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":6}]}</script>
+    
+
+  
+    
+    
+<script nonce="ef7pGWAAP&#x2B;n0iAJN9Qhgow==" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+
+    Kaggle.Current = {
+        antiForgeryToken: 'CfDJ8LdUzqlsSWBPr4Ce3rb9VL9Kyu6y2A3YmzIkflI4kjM9OxZfKsF2dlSnZk9GofAIdgGZ4En0hpuxJy9mFqw9JHdRJjixydMJ1362MR3iwPwHR8XccEoFr34WsH3EeojmKNQ_hfl_cPHc9d0BVsuNjxM',
+        isAnonymous: true,
+        analyticsToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjM3NjQ1MDcsIlVzZXJJZCI6MH0.5TZGAqWEcyqMJRxmP-CnVEBm1kzA5BaxleNSoikrMoA',
+        analyticsTokenExpiry: 15,
+        
+        
+        
+        
+        
+        
+        
+        enableRapidash: true, 
+    }
+        Kaggle.Current.log = function(){};
+        Kaggle.Current.warn = function(){};
+
+    var decodeUserDisplayName = function () {
+        var escapedUserDisplayName = Kaggle.Current.userDisplayNameEscaped || "";
+        try {
+            var textVersion = new DOMParser().parseFromString(escapedUserDisplayName, "text/html").documentElement.textContent;
+            if (textVersion) {
+                return textVersion;
+            }
+        } catch(ex) {}
+        return escapedUserDisplayName;
+    }
+    Kaggle.Current.userDisplayName = decodeUserDisplayName();
+</script>
+
+    
+
+<script nonce="ef7pGWAAP&#x2B;n0iAJN9Qhgow==" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+    Kaggle.PageMessages = [];
+</script>
+
+
+
+    <script nonce="ef7pGWAAP&#x2B;n0iAJN9Qhgow==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="ef7pGWAAP&#x2B;n0iAJN9Qhgow==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="ef7pGWAAP+n0iAJN9Qhgow==" src="/static/assets/runtime.js?v=0eea691921e40e4ccee4" data-turbolinks-track="reload"></script>
+  <script nonce="ef7pGWAAP+n0iAJN9Qhgow==" src="/static/assets/vendor.js?v=977a0409196429cbafe2" data-turbolinks-track="reload"></script>
+  <script nonce="ef7pGWAAP+n0iAJN9Qhgow==" src="/static/assets/app.js?v=fba42ca6e84bdc066dbe" data-turbolinks-track="reload"></script>
+    <script nonce="ef7pGWAAP&#x2B;n0iAJN9Qhgow==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+          context: {
+        user: '0',
+                  },
+              };
+    </script>
+</head>
+
+<body data-turbolinks="false">
+  <main>
+    
+
+
+
+
+
+<div id="site-container"></div>
+<div data-component-name="NavigationContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="ef7pGWAAP+n0iAJN9Qhgow==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"navigationType":"BOTH_NAV"});performance && performance.mark && performance.mark("NavigationContainer.componentCouldBootstrap");</script>
+<div id="site-body" class="hide">
+    
+
+
+<div data-component-name="DatasetContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="ef7pGWAAP+n0iAJN9Qhgow==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"discussion":{"canDownvote":false,"dataUrl":"/forums/266567/topics.json","id":266567,"showSubscribeButton":false,"isSubscribed":false,"subscription":"unsubscribe","paramValues":{"category":"all","page":1,"search":null,"group":"all","sortBy":"hot"}},"currentTab":"home","newTopic":{"allowAttachments":false,"authorRanking":null,"authorTier":"novice","authorType":"topic","forumId":266567,"parentName":"Fuel Consumption","parentUrl":"/sarita19/fuel-consumption/discussion"},"categories":{"type":"dataset","tags":[{"id":11102,"name":"business","fullPath":"subject \u003e people and society \u003e business","listingUrl":"/datasets?group=public\u0026tagids=11102","description":"Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.","datasetCount":20740,"competitionCount":2,"notebookCount":13688,"tagUrl":"/tags/business","displayName":"Business","fontAwesomeIcon":"briefcase"}]},"upvoteSuggestion":{"voteCount":6,"medalVoteCount":0,"upVoteUrl":"/sarita19/fuel-consumption/vote","upVoters":[{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Banded anzi","profileUrl":"/bandedanzi","tier":"Novice","tierInt":0,"userId":6992744,"userName":"bandedanzi"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Karani Pavan kumar","profileUrl":"/karanipavankumar","tier":"Novice","tierInt":0,"userId":6723149,"userName":"karanipavankumar"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Mati Koza","profileUrl":"/matikoza","tier":"Novice","tierInt":0,"userId":6626755,"userName":"matikoza"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"RIKIN BASU","profileUrl":"/rikinbasu","tier":"Novice","tierInt":0,"userId":4713823,"userName":"rikinbasu"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Tiny ferr","profileUrl":"/tinyferr","tier":"Novice","tierInt":0,"userId":4516932,"userName":"tinyferr"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Rorisang Sitoboli","profileUrl":"/rorisangs","tier":"Novice","tierInt":0,"userId":3703863,"userName":"rorisangs"}]},"readerGroupId":null,"writerGroupId":null,"collaborators":{"owner":{"userId":544505,"groupId":null,"groupMemberCount":null,"profileUrl":"/sarita19","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","name":"Sarita","slug":"sarita19","userTier":0,"joinDate":null,"type":"owner","isUser":true,"isGroup":false},"collaborators":[]},"isCollaborator":false,"deletionNeedsReview":false,"hasDatasetDoiApproved":false,"canSeeConfigAsCode":true,"canCreateDatasetTasks":true,"blockTaskCreation":false,"canSeeDatasetHashLink":true,"medalUrl":null,"datasetHashLink":null,"datasetId":255305,"isRemoved":false,"isVersionRemoved":false,"isFeatured":false,"isSuperFeatured":false,"scheduledToBeFeatured":null,"scheduledToBeUnFeatured":null,"scheduledToBeSuperFeatured":null,"scheduledToBeUnSuperFeatured":null,"datasetVersionId":536206,"datasetVersionNumber":1,"lastVersionNumber":1,"datasetUrl":"/sarita19/fuel-consumption","datasetExternalUrl":"https://kaggle.com/sarita19/fuel-consumption","originalImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/default-backgrounds/5.png","coverImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-5.png-544505/dataset-cover.png","cardImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-5.png-544505/dataset-card.png","thumbnailImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-5.png-544505/dataset-thumbnail.png","license":{"id":4,"name":"Unknown","description":"Unknown","url":null,"displaySequence":null},"voteCount":6,"upVoteUrl":"/sarita19/fuel-consumption/vote","creatorUserId":544505,"creatorDisplayName":"Sarita","ownerTwitter":null,"lastUpdated":"2019-07-05T12:48:45.457Z","downloadUrl":"/sarita19/fuel-consumption/download","newNotebookUrl":"code/scripts/new?datasetVersionId=536206","newScriptUrl":"code/scripts/new?datasetVersionId=536206","hasAlreadyVotedUp":false,"isOldDatasetVersion":false,"numberOfViews":5961,"numberOfDownloads":1015,"numberOfScripts":4,"numberOfTopics":0,"numberOfTasks":0,"canEdit":false,"canPerformOwnerTasks":false,"canEditSlug":false,"canEditPublishStatus":false,"canEditFeatureStatus":false,"canEditDescription":false,"hideVersionStatuses":true,"cardImageLeft":650,"cardImageTop":0,"cardImageWidth":600,"cardImageHeight":600,"coverImageLeft":0,"coverImageTop":100,"coverImageWidth":1900,"coverImageHeight":400,"datasetVersions":[{"id":536206,"slug":"fuel-consumption","name":"Fuel Consumption","creationDate":"2019-07-05T12:48:45.457Z","versionNumber":1,"versionNotes":"Initial release","thumbnailImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-5.png-544505/dataset-thumbnail.png","datasetVersionUrl":"/sarita19/fuel-consumption/version/1","status":"ready","userMessage":null,"isRemoved":false,"creator":{"id":544505,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","isOrganization":false,"name":"Sarita","profileUrl":"/sarita19","slug":"sarita19","maxFileSizeBytes":null,"userTier":null,"organizationMemberCount":null},"userSpecifiedSources":null,"doi":null,"databundleVersionId":552594}],"datasetVersionTotalCount":1,"feed":[],"topicId":null,"isNewTopic":false,"canSeeDeletionButton":false,"checklistDismissed":false,"type":"fileset","diffType":"versioned","checklistCollapsed":false,"isInFlight":false,"maintainerOrganization":null,"createdByKernel":null,"usabilityRating":{"score":0.29411766,"columnDescriptionScore":0.0,"coverImageScore":0.0,"fileDescriptionScore":0.0,"fileFormatScore":1.0,"licenseScore":0.0,"overviewScore":0.0,"provenanceScore":0.0,"publicKernelScore":1.0,"subtitleScore":0.0,"tagScore":1.0,"updateFrequencyScore":0.0},"bookmarked":false,"licenseGroups":[{"id":1,"name":"Creative Commons","licenses":[{"id":1,"name":"CC0: Public Domain","description":"CC0: Public Domain \u003ca href=\u0022https://creativecommons.org/publicdomain/zero/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/publicdomain/zero/1.0/","displaySequence":1},{"id":3,"name":"CC BY-NC-SA 4.0","description":"CC BY-NC-SA 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nc-sa/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc-sa/4.0/","displaySequence":2},{"id":8,"name":"CC BY-SA 4.0","description":"CC BY-SA 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-sa/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-sa/4.0/","displaySequence":3},{"id":10,"name":"CC BY-SA 3.0","description":"CC BY-SA 3.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-sa/3.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-sa/3.0/","displaySequence":4},{"id":13,"name":"Attribution 4.0 International (CC BY 4.0)","description":"CC-BY 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by/4.0/","displaySequence":5},{"id":14,"name":"Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)","description":"CC-BY-NC 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nc/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc/4.0/","displaySequence":6},{"id":16,"name":"Attribution 3.0 Unported (CC BY 3.0)","description":"CC BY 3.0 \u003ca href=\u0022https://creativecommons.org/licenses/by/3.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by/3.0/","displaySequence":7},{"id":17,"name":"Attribution 3.0 IGO (CC BY 3.0 IGO)","description":"CC BY 3.0 IGO \u003ca href=\u0022https://creativecommons.org/licenses/by/3.0/igo/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by/3.0/igo/","displaySequence":8},{"id":19,"name":"Attribution-NonCommercial-ShareAlike 3.0 IGO (CC BY-NC-SA 3.0 IGO)","description":"CC BY-NC-SA 3.0 IGO \u003ca href=\u0022https://creativecommons.org/licenses/by-nc-sa/3.0/igo/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc-sa/3.0/igo/","displaySequence":9},{"id":22,"name":"Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)","description":"CC BY-ND 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nd/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nd/4.0/","displaySequence":10},{"id":23,"name":"Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)","description":"CC BY-NC-ND 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nc-nd/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc-nd/4.0/","displaySequence":11}],"displaySequence":1},{"id":2,"name":"GPL","licenses":[{"id":9,"name":"GPL 2","description":"GPL 2 \u003ca href=\u0022http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html","displaySequence":1},{"id":25,"name":"GNU Lesser General Public License 3.0","description":"LGPL 3.0 \u003ca href=\u0022http://www.gnu.org/licenses/lgpl-3.0.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/lgpl-3.0.html","displaySequence":2},{"id":26,"name":"GNU Affero General Public License 3.0","description":"AGPL 3.0 \u003ca href=\u0022http://www.gnu.org/licenses/agpl-3.0.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/agpl-3.0.html","displaySequence":3},{"id":27,"name":"GNU Free Documentation License 1.3","description":"FDL 1.3 \u003ca href=\u0022http://www.gnu.org/licenses/fdl-1.3.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/fdl-1.3.html","displaySequence":4}],"displaySequence":2},{"id":3,"name":"Open Data Commons","licenses":[{"id":5,"name":"Database: Open Database, Contents: Database Contents","description":"Database: Open Database \u003ca href=\u0022http://opendatacommons.org/licenses/odbl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e, Contents: Database Contents \u003ca href=\u0022http://opendatacommons.org/licenses/dbcl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://opendatacommons.org/licenses/dbcl/1.0/","displaySequence":1},{"id":6,"name":"Database: Open Database, Contents: © Original Authors","description":"Database: Open Database \u003ca href=\u0022http://opendatacommons.org/licenses/odbl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e, Contents: © Original Authors","url":"http://opendatacommons.org/licenses/odbl/1.0/","displaySequence":2},{"id":15,"name":"ODC Public Domain Dedication and Licence (PDDL)","description":"PDDL  \u003ca href=\u0022https://opendatacommons.org/licenses/pddl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://opendatacommons.org/licenses/pddl/1.0/","displaySequence":3},{"id":24,"name":"ODC Attribution License (ODC-By)","description":"ODC-BY 1.0 \u003ca href=\u0022https://opendatacommons.org/licenses/by/1-0/index.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://opendatacommons.org/licenses/by/1-0/index.html","displaySequence":4}],"displaySequence":3},{"id":6,"name":"Community Data License","licenses":[{"id":20,"name":"Community Data License Agreement - Permissive - Version 1.0","description":"CDLA Permissive 1.0 \u003ca href=\u0022https://cdla.io/permissive-1-0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://cdla.io/permissive-1-0/","displaySequence":1},{"id":21,"name":"Community Data License Agreement - Sharing - Version 1.0","description":"CDLA Sharing 1.0 \u003ca href=\u0022https://cdla.io/sharing-1-0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://cdla.io/sharing-1-0/","displaySequence":2}],"displaySequence":4},{"id":4,"name":"Special","licenses":[{"id":7,"name":"World Bank Dataset Terms of Use","description":"World Bank Dataset Terms of Use \u003ca href=\u0022https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets","displaySequence":1},{"id":2,"name":"Reddit API Terms","description":"Reddit API Terms \u003ca href=\u0022https://www.reddit.com/wiki/api\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://www.reddit.com/wiki/api","displaySequence":2},{"id":18,"name":"U.S. Government Works","description":"U.S. Government Works \u003ca href=\u0022https://www.usa.gov/government-works/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://www.usa.gov/government-works/","displaySequence":3},{"id":28,"name":"EU ODP Legal Notice","description":"EU ODP Legal Notice \u003ca href=\u0022https://ec.europa.eu/info/legal-notice_en\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://ec.europa.eu/info/legal-notice_en","displaySequence":4}],"displaySequence":5},{"id":5,"name":"Other","licenses":[{"id":11,"name":"Data files © Original Authors","description":"Data files © Original Authors","url":null,"displaySequence":1},{"id":12,"name":"Other (specified in description)","description":"Other (specified in description)","url":null,"displaySequence":2},{"id":4,"name":"Unknown","description":"Unknown","url":null,"displaySequence":3}],"displaySequence":6}],"owners":[{"id":0,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/","isOrganization":false,"name":null,"profileUrl":"/","slug":null,"maxFileSizeBytes":null,"userTier":null,"organizationMemberCount":null},{"id":544505,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","isOrganization":false,"name":"Sarita","profileUrl":"/sarita19","slug":"sarita19","maxFileSizeBytes":null,"userTier":0,"organizationMemberCount":null}],"referrer":null,"convertToStandardCsvFormat":false,"overview":"","description":"","actions":[],"flags":[],"title":"Fuel Consumption","slug":"fuel-consumption","licenseId":4,"data":{"firestorePath":"ZUcbJZScEjg9Ww7YOtDg/versions/kSRY2isYOzQDX7Nel6Ql","databundleVersionId":552594,"databundle":{"type":"databundle","databundleInfo":{"currentDatabundleVersionId":552594,"databundleType":"dataset","diffType":"versioned","creationDate":"2019-07-05T12:48:44.0991344Z","creatorUserId":544505,"removalDate":null,"currentGoodVersionKey":"kSRY2isYOzQDX7Nel6Ql","lastestVersionKey":"kSRY2isYOzQDX7Nel6Ql","versions":{"totalChildren":1,"count":0,"children":[]}},"datasetInfo":{"datasetId":255305,"datasetSlug":"/sarita19/fuel-consumption","isPrivate":false},"competitionInfo":null,"remoteDatasourceInfo":null,"bigqueryInfo":null,"githubInfo":null,"key":"ZUcbJZScEjg9Ww7YOtDg","path":"ZUcbJZScEjg9Ww7YOtDg","legacyEntityId":267678,"relativeUrl":"","name":"Fuel Consumption","description":null},"databundleVersion":{"type":"databundleVersion","databundleVersionInfo":{"versionNumber":1,"versionNotes":"Initial release","creatorUserId":544505,"creationDate":"2019-07-05T12:48:44.0991366Z","removalDate":null,"databundleVersionType":"fileset","objectTypeCount":{}},"datasetVersionInfo":{"datasetVersionId":536206},"statusInfo":{"status":"ready","statusMessage":"Ready","percentageCompleted":1.0},"exceptionInfo":{"criticalException":null,"warningExceptions":[]},"filesetInfo":{"totalSize":72629,"directories":{"totalChildren":0,"count":0,"children":[]},"files":{"totalChildren":1,"count":0,"children":[]}},"originalCompressionInfo":null,"bundleCompressionInfo":{"filename":"archive.zip","fileExtension":".zip","fileSize":13052,"contentEncoding":"application/zip","contentMD5":"MuuT8nIDn4ed4wxGuIQI9w==","archiveGcsUrl":"gs://kaggle-data-sets/255305/536206/bundle/archive.zip","creationLastUpdate":"2019-10-27T04:35:11.6677251Z","creationPercentComplete":1.0},"bigquerySnapshotInfo":null,"storageInfo":{"uploadDataLocation":{"bucket":"kaggle-data-sets","path":"255305/536206/upload"},"rawDataLocation":{"bucket":"kagglesdsdata","path":"datasets/255305/536206"},"individualCompressedLocation":{"bucket":"kaggle-data-sets","path":"255305/536206/compressed"},"bundleArchiveLocation":{"bucket":"kaggle-data-sets","path":"255305/536206/bundle/archive.zip"},"fileSystemLocation":{"bucket":"kaggle-data-sources","path":"datasets/255305/536206/fs/embedded_fs"}},"fileSummaryInfo":{"fileTypes":[{"extension":".csv","fileCount":1,"totalSize":72629}],"sampleFileNames":["FuelConsumption.csv"],"totalFileCount":1},"columnSummaryInfo":{"columnTypes":[{"columnType":"String","columnCount":5,"rowCount":5335},{"columnType":"Decimal","columnCount":4,"rowCount":4268},{"columnType":"Integer","columnCount":4,"rowCount":4268}],"sampleColumnNames":["FUELCONSUMPTION_HWY","FUELCONSUMPTION_CITY","FUELTYPE","TRANSMISSION","CYLINDERS","ENGINESIZE","VEHICLECLASS","MODEL","MAKE","MODELYEAR"],"totalColumnCount":13},"externalCopyInfo":null,"originalRemoteUrlInfo":null,"key":"kSRY2isYOzQDX7Nel6Ql","path":"ZUcbJZScEjg9Ww7YOtDg/versions/kSRY2isYOzQDX7Nel6Ql","legacyEntityId":552594,"relativeUrl":"","name":"Version 1","description":"Initial release"}},"isPrivate":false,"owner":{"id":544505,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","isOrganization":false,"name":"Sarita","profileUrl":"/sarita19","slug":"sarita19","maxFileSizeBytes":null,"userTier":0,"organizationMemberCount":null}});performance && performance.mark && performance.mark("DatasetContainer.componentCouldBootstrap");</script><script nonce="ef7pGWAAP&#x2B;n0iAJN9Qhgow==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: [],
+    });
+</script>
+<script type="text/javascript" nonce="ef7pGWAAP&#x2B;n0iAJN9Qhgow==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
+    const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
+
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+</div>
+
+
+
+
+  </main>
+</body>
+
+</html>
